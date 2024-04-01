@@ -167,7 +167,7 @@
 #     print(list_1)
 #list_2 = [exp for item in iterable (if conditional)] выборка по заданому условию
 
-list = []
+# list = []
 # for i in range(1, 101):
 #     list.append(i)
 #     print(list)
