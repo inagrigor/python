@@ -209,18 +209,27 @@ import math
 
 # # Пример использования:
 # stroka = 'пара-ра-рам рам-пам-папам па-ра-па-дам'
-# print(check_rhythm(stroka))
 
-# f len(phrases) < 2:
-#  print('Количество фраз должно быть больше одной!')
+
+# privowels = ['а', 'е', 'ё', 'и', 'й', 'о', 'у', 'ы', 'э', 'ю', 'я']
+# phrases = stroka.split()
+# # print(check_rhythm(stroka))
+
+# if len(phrases) < 2:
+#     print('Количество фраз должно быть больше одной!')
 # else:
-#  countVowels = []
+#     countVowels = []
 
-#  for i in phrases:
-#   countVowels.append(len([x for x in i if x.lower() in vowels]))
-
-#  if countVowels.count(countVowels[0]) == len(countVowels):
+# for i in phrases:
+#   countVowels.append(len([x for x in i if x.lower() in privowels]))# В Python выражение в квадратных скобках 
+# #   создает список. В данном случае, мы хотим создать список из значений, которые прошли фильтрацию с 
+# #   помощью генератора списка. Генератор списка [x for x in i if x.lower() in vowels] создает список, 
+# #   содержащий все символы из строки i, которые являются гласными.
+# # Далее, выражение len([...]) принимает список внутри скобок и возвращает его длину, то есть 
+# # количество элементов в этом списке. Поэтому нам нужны квадратные скобки вокруг генератора списка, 
+# # чтобы создать список, который затем передается функции len() для вычисления его длины.
+# if countVowels.count(countVowels[0]) == len(countVowels):
 #   print('Парам пам-пам')
-#  else:
+# else:
 #   print('Пам парам')
 
