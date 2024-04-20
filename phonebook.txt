@@ -1,0 +1,21 @@
+Ivanov Ivan Ivan: 1234
+Caunas
+
+Petrov Petr Petr: 12345
+Balti
+
+Ivan Ivanov Ivan: 1234
+Balti
+
+Petr Petru Petrov: 3456
+Cahul
+
+Sidorov Sidor Sidorov: 6789
+iiasi
+
+Vasiliev Vasilii Vasilii : 2345
+Chisinau
+
+Uilaa  Renat Danil: 8765
+Cusbas
+
